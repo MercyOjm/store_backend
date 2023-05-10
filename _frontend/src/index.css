@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  color: #555;
+}
+
+
+body{
+  padding: 1rem;
+  text-align: center;
+}
+
+.login-container, .products-container, .container-formik, .container-contact{
+  max-width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem 2rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #555;
+  background-color: azure;
+}
+
+
+h3{
+  font-size: 1.5rem;
+}
+
+form, .container-contact form div{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input{
+  height: 3rem;
+  width: 80%;
+  margin:auto;
+}
+
+input[type='email'], input[type='password']{
+  padding-left: 1rem;
+}
+
+input[type='submit']{
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.error-msg, .error{
+  font-size: 0.7rem;
+  text-align: left;
+  color: coral;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+
+}
+
+.login-btn{
+    background-color: rgb(56, 172, 33);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 80%;
+  padding: 1.2rem;
+  margin: auto;
+}
+
+.formik-btn{
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
+.form-elems{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.form-elems input{
+  width: 100%;
+}
